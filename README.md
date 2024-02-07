@@ -5,12 +5,11 @@ The integration of a GPT-2 based embedding with a simple machine learning model 
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Dataset](#dataset)
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+  
 
 ## Introduction
 
@@ -28,12 +27,29 @@ movement?
 2. In what ways do Natural Language Processing techniques and qualitative
 analysis of news headlines contribute to forecasting DJIA index volatility
 movements?
+## Dataset
+The dataset utilized in this investigation is sourced from Kaggle covering
+the period from June 8th, 2008, to July 1st, 2016. Originally designed for students
+participating in a Deep Learning and NLP course, the dataset comprises both stock
+and news data, provided in .csv format and conveniently accessible on the associated
+website.
+Link: https://www.kaggle.com/aaron7sun/stocknews
+## Requirements
+1. Data Preprocessing: Loading and processing datasets, particularly using Pandas (pandas library). Tokenizing and encoding text data for model input.
+2. Model Building: Utilizing the Hugging Face Transformers library (transformers) to work with pre-trained models for NLP tasks. Creating and configuring a text classification model.
+4.  Model Training: Training the text classification model on the provided dataset. Fine-tuning the pre-trained transformer model for specific tasks using custom data.
+5. Evaluation: Evaluating the trained model's performance on a validation dataset, likely using metrics such as accuracy, precision, recall, and F1 score.
+6. Prediction: Using the trained model to make predictions on new, unseen text data.
+7. Integration with Scikit-Learn: Leveraging Scikit-Learn (scikit-learn) for machine learning functionalities, such as splitting the dataset into training and validation sets.
+8. TensorFlow and Keras Integration: Combining the Hugging Face Transformers library with TensorFlow (tensorflow) and Keras (keras) for building and training models.
+9. Logging and Reporting: Logging information during the training process, possibly for monitoring training progress and model performance.
+10. Custom Tokenization and Padding: Handling tokenization and padding of text sequences for model input. 10.Data Visualization (Possibly): Plotting and visualizing data or model performance using libraries like Matplotlib or Seaborn.
+11. Requirements File: Organizing project dependencies using a requirements.txt file.
 ## Features
 1. Financial Indicators : ['Stochastic_K', 'Stochastic_D', 'Momentum', 'Rate_of_Change', 'William_R', 'A/D_Oscillator', 'Disparity_5']
 2. Textual Features : 25 news headlines extracted from the Reddit
 World-News Channel
 
-## Requirements
 
 1. Data Preprocessing:
 Loading and processing datasets, particularly using Pandas (pandas library).
