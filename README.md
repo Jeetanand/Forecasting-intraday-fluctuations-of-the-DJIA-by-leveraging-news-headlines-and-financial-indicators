@@ -124,6 +124,9 @@ import matplotlib.pyplot as plt
 from tensorflow.keras.layers import Conv1D, MaxPooling1D, GRU
 ```
 ## Deployment
+#### Glimpse of the streamlit app
+
+![image](https://github.com/Jeetanand/IntradayDJIAForecast/assets/128984571/d0b71d8c-926f-4e5b-951a-8df405c87b45)
 
 - [Features](#feautures)
 - [Installation](#installation)
@@ -152,5 +155,6 @@ pip install -r requirements.txt
 ```
 streamlit run app.py
 ```
+
 
 
