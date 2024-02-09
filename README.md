@@ -122,12 +122,12 @@ import matplotlib.pyplot as plt
 9. Conv1D, MaxPooling1D, GRU (Keras layers): Used for building convolutional and recurrent neural network layers.
 ```
 from tensorflow.keras.layers import Conv1D, MaxPooling1D, GRU
-
+```
 ## Deployment
 
 - [Features](#feautures)
 - [Installation](#installation)
-- [Features](#features)
+
 
 #### Features
 
@@ -138,7 +138,7 @@ from tensorflow.keras.layers import Conv1D, MaxPooling1D, GRU
 
 #### Installation
 
-1. Clone the repositir
+1. Clone the repository
 
 ```bash
 git clone https://github.com/your_username/djia_prediction_app.git
