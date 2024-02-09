@@ -9,7 +9,8 @@ The integration of a GPT-2 based embedding with a simple machine learning model 
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
-  
+- [Deployment](#deployment)
+
 
 ## Introduction
 
@@ -121,4 +122,35 @@ import matplotlib.pyplot as plt
 9. Conv1D, MaxPooling1D, GRU (Keras layers): Used for building convolutional and recurrent neural network layers.
 ```
 from tensorflow.keras.layers import Conv1D, MaxPooling1D, GRU
+
+## Deployment
+
+- [Features](#feautures)
+- [Installation](#installation)
+- [Features](#features)
+
+#### Features
+
+1. LSTM Model: The app utilizes a pre-trained LSTM model for predicting DJIA movements.
+2. GPT-2 Embedding: News headlines are transformed using the GPT-2 model for better input representation.
+3. User Interaction: Users can input 25 news headlines and select a date for prediction.
+4. Technical Indicators: Additional features such as Stochastic K/D, Momentum, Rate of Change, etc., are fetched from Yahoo Finance.
+
+#### Installation
+
+1. Clone the repositir
+
+```bash
+git clone https://github.com/your_username/djia_prediction_app.git
+```
+2. Install dependencies:
+```
+pip install -r requirements.txt
+
+```
+3. Run the app:
+```
+streamlit run app.py
+```
+
 
