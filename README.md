@@ -144,7 +144,7 @@ from tensorflow.keras.layers import Conv1D, MaxPooling1D, GRU
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your_username/djia_prediction_app.git
+git clone https://github.com/Jeetanand/IntradayDJIAForecast/tree/main/djia_app/app.git
 ```
 2. Install dependencies:
 ```
